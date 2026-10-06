@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ochit — Glad to Give | เฉพาะกิจจิตอาสา</title>
+<meta name="description" content="Ochit — ทีมจิตอาสา 19 คน รวมผลงาน โครงการ และหลักฐานการทำงานเพื่อสังคม">
+<meta property="og:title" content="Ochit — Glad to Give">
+<meta property="og:description" content="เฉพาะกิจจิตอาสา · รวมผลงานจิตอาสาของทีม Ochit">
+<link rel="icon" id="favicon" type="image/webp" href="images/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Mitr:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="notice" id="notice"><b>หมายเหตุ:</b> ข้อมูลโครงการและตัวเลขบนหน้านี้เป็น <b>ตัวอย่าง</b> — แก้ไขได้ในไฟล์ <code>js/data.js</code> แล้วตั้ง <code>SHOW_SAMPLE_NOTICE = false</code></div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#home"><img data-logo alt="โลโก้ Ochit"><span>OCHIT</span></a>
+    <ul class="menu" id="menu">
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#where">Where</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#recognition">Recognition</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="เปิดเมนู"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Ochit · Volunteer Team</div>
+      <h1 class="tag" style="margin-top:10px">GLAD<br>TO GIVE</h1>
+      <div class="tag-th">เฉพาะกิจจิตอาสา</div>
+      <p class="lead">เราคือทีมเยาวชน 19 คนที่เชื่อว่าการให้คือความสุข — รวมพลังลงมือทำโครงการจิตอาสาเพื่อเด็ก ชุมชน และสิ่งแวดล้อม พร้อมบันทึกทุกก้าวไว้เป็นหลักฐานที่ตรวจสอบได้</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="#projects">ดูผลงาน →</a>
+        <a class="btn btn-ghost" href="#team">พบทีม</a>
+      </div>
+      <div class="hero-chips" id="heroChips"></div>
+    </div>
+    <img class="hero-logo" id="logoSrc" src="images/logo.webp" alt="Ochit — มือสองข้างประคองหัวใจและเด็ก ๆ">
+  </div>
+</header>
+
+<section class="stats" id="impact" aria-label="ผลงานโดยสรุป">
+  <div class="wrap" id="statsWrap"></div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="reveal">
+      <div class="eyebrow">About Ochit</div>
+      <h2 class="h2">What is <span class="grad">Ochit?</span></h2>
+      <p>Ochit (โอจิต) มาจากความตั้งใจของกลุ่มเพื่อนที่อยากใช้เวลาว่างทำสิ่งที่มีความหมาย เราเลือกชื่อที่ฟังแล้วนึกถึง “จิตอาสา” และสัญลักษณ์มือสองข้างที่ประคองหัวใจไว้ หมายถึงการดูแลกันและกัน</p>
+      <p>เราเน้นทำโครงการที่ <b>ต่อเนื่อง</b> และ <b>วัดผลได้</b> — ทุกโครงการต้องรู้ว่าช่วยใคร ช่วยได้เท่าไร และเราได้เรียนรู้อะไรกลับมา</p>
+      <div class="equation" aria-label="แนวคิด Glad to Give">
+        <div class="box"><i>🤲</i>TIME</div><span class="op">+</span>
+        <div class="box"><i>💡</i>IDEAS</div><span class="op">+</span>
+        <div class="box"><i>💗</i>HEART</div><span class="op">=</span>
+        <div class="box" style="border-style:solid;background:var(--grad);color:#fff;border-color:transparent"><i>🌱</i>IMPACT</div>
+      </div>
+    </div>
+    <div class="pillars reveal">
+      <div class="pillar"><div class="ic">💗</div><div><h3>ให้ด้วยใจ</h3><p>เริ่มจากการฟังว่าชุมชนต้องการอะไรจริง ๆ ก่อนลงมือ ไม่ใช่สิ่งที่เราอยากให้</p></div></div>
+      <div class="pillar"><div class="ic">📚</div><div><h3>ให้ความรู้คู่สิ่งของ</h3><p>ทุกการบริจาคมาพร้อมกิจกรรมหรือเวิร์กช็อป เพื่อให้ผลลัพธ์อยู่ได้นานกว่าวันที่เราไป</p></div></div>
+      <div class="pillar"><div class="ic">🌱</div><div><h3>ทำต่อเนื่อง วัดผลได้</h3><p>บันทึกวันที่ ชั่วโมง ผู้ได้รับประโยชน์ และหลักฐานจากหน่วยงานทุกครั้ง</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="where">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">Where We've Been</div>
+      <h2 class="h2">Our <span class="grad">Impact Map</span></h2>
+      <p class="lead">พื้นที่ที่ทีม Ochit ลงไปทำงาน แบ่งตามภูมิภาค — กดชื่อสถานที่เพื่อดูรายละเอียดโครงการ</p>
+    </div>
+    <div class="regions" id="regions"></div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">Our Projects</div>
+      <h2 class="h2">Every Project, <span class="grad">With Proof</span></h2>
+      <p class="lead">ทุกโครงการมีวันที่ สถานที่ หน่วยงาน ชั่วโมงจิตอาสา และสิ่งที่เราได้เรียนรู้ — กดการ์ดเพื่อดูรายละเอียด</p>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="section alt" id="team">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">19 Hearts, One Team</div>
+      <h2 class="h2">Meet the <span class="grad">Ochit Team</span></h2>
+      <p class="lead">กดการ์ดเพื่อดูบทบาทและโครงการที่แต่ละคนร่วม — สมาชิกทุกคนมีลิงก์ส่วนตัวสำหรับแนบในพอร์ตโฟลิโอ</p>
+    </div>
+    <div class="tier reveal"><div class="label">CO-FOUNDER</div><div class="polas leaders" id="leaders"></div><div class="polas rest" id="cofounders"></div></div>
+    <div class="tier reveal" style="margin-top:56px"><div class="label">MEMBER</div><div class="polas members" id="members"></div></div>
+    <p class="team-foot">We are Ochit — glad to give, every single day.</p>
+  </div>
+</section>
+
+<section class="section" id="recognition">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">Recognition</div>
+      <h2 class="h2">Thank You <span class="grad">Notes</span></h2>
+      <p class="lead">หนังสือขอบคุณ เกียรติบัตร และข่าวจากหน่วยงานที่เราร่วมงานด้วย</p>
+    </div>
+    <div class="recs" id="recs"></div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <img class="flogo" data-logo alt="โลโก้ Ochit">
+        <div class="tagf">GLAD TO GIVE</div>
+        <div>เฉพาะกิจจิตอาสา</div>
+      </div>
+      <div>
+        <h4>CONTACT</h4>
+        <div id="contactLinks"></div>
+      </div>
+      <div>
+        <h4>PORTFOLIO</h4>
+        <a href="#projects">ผลงานทั้งหมด</a>
+        <a href="#team">ทีมของเรา</a>
+        <a href="#" id="printBtn">⬇ บันทึกเป็น PDF</a>
+      </div>
+    </div>
+    <div class="copy"><span>© <span id="yr"></span> Ochit Volunteer Team</span><span>Made with 💗 by 19 volunteers</span></div>
+  </div>
+</footer>
+
+<!-- Modals -->
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="sheet" id="sheet"></div></div>
+<div class="lb" id="lb"><img id="lbImg" alt=""></div>
+
+<script src="js/data.js"></script>
+<script src="js/supabase.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

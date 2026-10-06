@@ -1,0 +1,10 @@
+# ต้นฉบับไฟล์เดียว (รูปฝังใน HTML, 4.3 MB) — ใช้ index.html + css/js/images แทน
+ochit.html
+
+# ไฟล์ทำงาน / แผน
+ochit-website-plan*.md
+ochit-deploy.zip
+
+# Claude Code
+.mcp.json
+.claude/
