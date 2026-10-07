@@ -70,7 +70,7 @@ let PROJECTS = [
     ],
     hours:0, beneficiaries:0,
     highlight:{ value:"4", label:"ด้านที่ช่วยเหลือโรงเรียน" },
-    cover:"images/projects/paint-for-kids/cover.webp",
+    cover:"images/projects/paint-for-kids/cover.jpg",
     images:["images/projects/paint-for-kids/01.webp","images/projects/paint-for-kids/02.webp","images/projects/paint-for-kids/03.webp","images/projects/paint-for-kids/04.webp","images/projects/paint-for-kids/05.webp","images/projects/paint-for-kids/06.webp","images/projects/paint-for-kids/07.webp","images/projects/paint-for-kids/08.webp","images/projects/paint-for-kids/09.webp","images/projects/paint-for-kids/10.webp","images/projects/paint-for-kids/11.webp"],
     members:[],
     reflection:""
