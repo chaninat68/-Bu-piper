@@ -79,7 +79,7 @@ let PROJECTS = [
 
 /* ⚠️ ชื่ออ่านจากลายมือ — กรุณายืนยันการสะกด / Fang สองคนแยก slug ไว้แล้ว */
 let TEAM = [
-  {slug:"bhu",    name:"Bhu",    tier:"cofounder", photo:"images/team/bhu.webp", role:"Co-founder & President",        duties:["วางทิศทางทีมและตัดสินใจภาพรวม","เป็นตัวแทนติดต่อหน่วยงาน"]},
+  {slug:"bhu",    name:"Bhubhu",    tier:"cofounder", photo:"images/team/bhu.webp", role:"Co-founder & President",        duties:["วางทิศทางทีมและตัดสินใจภาพรวม","เป็นตัวแทนติดต่อหน่วยงาน"]},
   {slug:"piper",  name:"Piper",  tier:"cofounder", photo:"images/team/piper.webp", role:"Co-founder & Vice President",   duties:["ช่วยประธานและประสานงานภายในทีม","ดูแลตารางงาน"]},
   {slug:"wanda",  name:"Wanda",  tier:"cofounder", photo:"images/team/wanda.webp", role:"Co-founder & Advisor",          duties:["ให้คำปรึกษาการวางแผนโครงการ","ตรวจความเหมาะสมของกิจกรรม"]},
   {slug:"nippon", name:"Nippon", tier:"cofounder", photo:"images/team/nippon.webp", role:"Co-founder & Communications",   duties:["ประชาสัมพันธ์และดูแลโซเชียลมีเดีย","ถ่ายภาพและทำสื่อ"]},
