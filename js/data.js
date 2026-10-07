@@ -64,8 +64,8 @@ let PROJECTS = [
     did:"ทีม Ochit ร่วมกับโฮมเพ้นท์ เอาท์เล็ท ลงพื้นที่โรงเรียนวัดท้ายเกาะ ขูดลอกสีเก่าและทาสีเสาใต้ถุนอาคารเรียน ทาสีลานกีฬาอเนกประสงค์ใหม่ทั้งลาน พร้อมบริจาคอุปกรณ์กีฬา อุปกรณ์การเรียน และอุปกรณ์ทำความสะอาดให้โรงเรียน",
     activities:[
       {no:"01", th:"ทาสีปรับภูมิทัศน์โรงเรียน", en:"School Painting", img:"images/projects/paint-for-kids/act-01.jpg"},
-      {no:"02", th:"บริจาคอุปกรณ์กีฬา",        en:"Sport Equipments", icon:"🏸"},
-      {no:"03", th:"บริจาคอุปกรณ์การเรียน",     en:"School Supply", icon:"📚"},
+      {no:"02", th:"บริจาคอุปกรณ์กีฬา",        en:"Sport Equipments", img:"images/projects/paint-for-kids/act-02.jpg"},
+      {no:"03", th:"บริจาคอุปกรณ์การเรียน",     en:"School Supply", img:"images/projects/paint-for-kids/act-03.jpg"},
       {no:"04", th:"บริจาคอุปกรณ์ทำความสะอาด", en:"Cleaning Supply", img:"images/projects/paint-for-kids/act-04.jpg"}
     ],
     hours:0, beneficiaries:0,
