@@ -87,7 +87,7 @@ let TEAM = [
   {slug:"fong",   name:"Fong",   tier:"cofounder", photo:"images/team/fong.webp", role:"Co-founder & Educator",         duties:["ออกแบบเนื้อหาให้ความรู้","จัดกิจกรรมสอนหรือเวิร์กช็อป"]},
   {slug:"us",     name:"U.S.",   tier:"cofounder", photo:"images/team/us.webp", role:"Co-founder & Field Operations", duties:["วางแผนและควบคุมงานภาคสนาม","ดูแลการเดินทางและความปลอดภัย"]},
   {slug:"prom",   name:"Prom",   tier:"cofounder", photo:"images/team/prom.webp", role:"Co-founder & Supply",           duties:["จัดหาและรับบริจาค","จัดเก็บและกระจายสิ่งของ"]},
-  {slug:"khaw-wan",name:"Khaw-wan",tier:"member"},
+  {slug:"khaw-wan",name:"Khaw-wan",tier:"member", photo:"images/team/khaw-wan.jpg"},
   {slug:"krish",  name:"Krish",  tier:"member"},
   {slug:"jj",     name:"J.J.",   tier:"member"},
   {slug:"jeda",   name:"JEDA",   tier:"member"},
@@ -97,7 +97,7 @@ let TEAM = [
   {slug:"hero",   name:"Hero",   tier:"member"},
   {slug:"fang-m", name:"Fang",   tier:"member"},
   {slug:"hana",   name:"Hana",   tier:"member"},
-  {slug:"prim",   name:"Prim",   tier:"member"}
+  {slug:"prim",   name:"Prim",   tier:"member", photo:"images/team/prim.jpg"}
 ];
 /* คนที่อยู่แถวบนสุดของ Co-founder */
 let LEADERS = ["bhu","piper"];
