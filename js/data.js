@@ -92,9 +92,9 @@ let TEAM = [
   {slug:"jj",     name:"J.J.",   tier:"member", photo:"images/team/jj.jpg"},
   {slug:"jeda",   name:"JEDA",   tier:"member", photo:"images/team/jeda.jpg"},
   {slug:"captain",name:"Captain",tier:"member", photo:"images/team/captain.jpg"},
-  {slug:"cj",     name:"CJ",     tier:"member"},
+  {slug:"cj",     name:"CJ",     tier:"member", photo:"images/team/cj.jpg"},
   {slug:"nine",   name:"Nine",   tier:"member", photo:"images/team/nine.jpg"},
-  {slug:"hero",   name:"Hero",   tier:"member"},
+  {slug:"hero",   name:"Hero",   tier:"member", photo:"images/team/hero.jpg"},
   {slug:"fang-m", name:"Fang",   tier:"member"},
   {slug:"hana",   name:"Hana",   tier:"member"},
   {slug:"prim",   name:"Prim",   tier:"member", photo:"images/team/prim.jpg"}
