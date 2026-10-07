@@ -77,7 +77,7 @@ let PROJECTS = [
   }
 ];
 
-/* ⚠️ ชื่ออ่านจากลายมือ — กรุณายืนยันการสะกด / Fang สองคนแยก slug ไว้แล้ว */
+/* ⚠️ ชื่ออ่านจากลายมือ — กรุณายืนยันการสะกด */
 let TEAM = [
   {slug:"bhu",    name:"Bhubhu",    tier:"cofounder", photo:"images/team/bhu.webp", role:"Co-founder & President",        duties:["วางทิศทางทีมและตัดสินใจภาพรวม","เป็นตัวแทนติดต่อหน่วยงาน"]},
   {slug:"piper",  name:"Piper",  tier:"cofounder", photo:"images/team/piper.webp", role:"Co-founder & Vice President",   duties:["ช่วยประธานและประสานงานภายในทีม","ดูแลตารางงาน"]},
@@ -95,7 +95,6 @@ let TEAM = [
   {slug:"cj",     name:"CJ",     tier:"member", photo:"images/team/cj.jpg"},
   {slug:"nine",   name:"Nine",   tier:"member", photo:"images/team/nine.jpg"},
   {slug:"hero",   name:"Hero",   tier:"member", photo:"images/team/hero.jpg"},
-  {slug:"fang-m", name:"Fang",   tier:"member"},
   {slug:"hana",   name:"Hana",   tier:"member", photo:"images/team/hana.jpg"},
   {slug:"prim",   name:"Prim",   tier:"member", photo:"images/team/prim.jpg"}
 ];
