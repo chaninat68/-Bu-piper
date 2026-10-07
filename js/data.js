@@ -96,7 +96,7 @@ let TEAM = [
   {slug:"nine",   name:"Nine",   tier:"member", photo:"images/team/nine.jpg"},
   {slug:"hero",   name:"Hero",   tier:"member", photo:"images/team/hero.jpg"},
   {slug:"fang-m", name:"Fang",   tier:"member"},
-  {slug:"hana",   name:"Hana",   tier:"member"},
+  {slug:"hana",   name:"Hana",   tier:"member", photo:"images/team/hana.jpg"},
   {slug:"prim",   name:"Prim",   tier:"member", photo:"images/team/prim.jpg"}
 ];
 /* คนที่อยู่แถวบนสุดของ Co-founder */
