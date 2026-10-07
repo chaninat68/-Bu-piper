@@ -66,7 +66,7 @@ let PROJECTS = [
       {no:"01", th:"ทาสีปรับภูมิทัศน์โรงเรียน", en:"School Painting", icon:"🖌️"},
       {no:"02", th:"บริจาคอุปกรณ์กีฬา",        en:"Sport Equipments", icon:"🏸"},
       {no:"03", th:"บริจาคอุปกรณ์การเรียน",     en:"School Supply", icon:"📚"},
-      {no:"04", th:"บริจาคอุปกรณ์ทำความสะอาด", en:"Cleaning Supply", icon:"🧹"}
+      {no:"04", th:"บริจาคอุปกรณ์ทำความสะอาด", en:"Cleaning Supply", img:"images/projects/paint-for-kids/act-04.jpg"}
     ],
     hours:0, beneficiaries:0,
     highlight:{ value:"4", label:"ด้านที่ช่วยเหลือโรงเรียน" },
